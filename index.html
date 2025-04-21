@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AveNav Shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1 class="logo">AveNav</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Shop</a></li>
+          <li><a href="#checkout">Checkout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home">
+    <div class="hero">
+      <img src="https://i.postimg.cc/8CCVTTBX/DSC-0022.jpg" alt="Aviation" class="hero-image" />
+      <div class="hero-text">
+        <h2>Explore the world of Aviation</h2>
+        <button onclick="scrollToShop()">Shop Now</button>
+      </div>
+    </div>
+  </section>
+  <section id="products">
+    <div class="product" data-id="1" data-name="Flight Manual Notebook" data-price="15.99">
+      <h3>Flight Manual Notebook</h3>
+      <div class="image-placeholder">Image coming soon</div>
+      <p>Perfect for jotting down aviation notes and logs.</p>
+      <button onclick="addToCart(1)">Add to Cart</button>
+    </div>
+    
+    <div class="product" data-id="2" data-name="Aviator Sunglasses" data-price="29.99">
+      <h3>Aviator Sunglasses</h3>
+      <div class="image-placeholder">Image coming soon</div>
+      <p>Stylish and UV-protected — a pilot’s best friend.</p>
+      <button onclick="addToCart(2)">Add to Cart</button>
+    </div>
+    
+    <div class="product" data-id="3" data-name="Model Airplane" data-price="45.00">
+      <h3>Model Airplane</h3>
+      <div class="image-placeholder">Image coming soon</div>
+      <p>Detailed replica to spark any aviation enthusiast’s joy.</p>
+      <button onclick="addToCart(3)">Add to Cart</button>
+    </div>    
+  </section>
+
+  <section id="checkout">
+    <h2>Checkout</h2>
+    <ul id="cart-list"></ul>
+    <p>Total: $<span id="total">0.00</span></p>
+    <button onclick="checkout()">Place Order</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
