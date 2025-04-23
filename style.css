@@ -150,3 +150,81 @@ body {
 .product-card button:hover {
   background-color: #005bb5;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .hero-text h1 {
+    font-size: 1.6rem;
+  }
+
+  .shop-now-button {
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .product-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-card {
+    width: 90%;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .slogan {
+    font-size: 0.8rem;
+  }
+
+  .cart-panel {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 1.3rem;
+  }
+
+  .shop-now-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .main-header {
+    padding: 1rem;
+  }
+
+  .logo {
+    font-size: 1.3rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .product-detail-container {
+    flex-direction: column;
+  }
+
+  .product-detail-image img {
+    width: 100%;
+  }
+}
