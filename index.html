@@ -1,64 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AveNav Shop</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AveNav</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="header-container">
-      <h1 class="logo">AveNav</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#products">Shop</a></li>
-          <li><a href="#checkout">Checkout</a></li>
-        </ul>
-      </nav>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="logo-area">
+      <div class="logo">AveNav</div>
+      <div class="slogan">Sky's the Limit with AveNav</div>
     </div>
+    <nav class="nav-links">
+      <a href="shop.html" target="_blank">Shop</a>
+      <a href="checkout.html" target="_blank">Checkout</a>
+      <a href="about.html" target="_blank">About</a>
+      <button class="cart-button" id="cart-button">
+        Cart (<span id="cart-count">0</span>)
+      </button>
+    </nav>
   </header>
 
-  <section id="home">
-    <div class="hero">
-      <img src="https://i.postimg.cc/8CCVTTBX/DSC-0022.jpg" alt="Aviation" class="hero-image" />
-      <div class="hero-text">
-        <h2>Explore the Fashion of Aviation</h2>
-        <button onclick="scrollToShop()">Shop Now</button>
-      </div>
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="https://i.postimg.cc/QtHgvLfB/DSC-0100.jpg" alt="Aviation Banner" class="hero-image">
+    <div class="hero-text">
+      <h1>Explore the Fashion of Aviation</h1>
+      <a href="shop.html" target="_blank" class="shop-now-button">Shop Now</a>
     </div>
-  </section>
-  <section id="products">
-   <div class="product">
-      <h3>Airplane Canvas</h3>
-      <img src="https://i.postimg.cc/xTTWMjnS/White-Minimalist-Poster-Mockup-Instagram-Post-20250421-172243-0000.png" alt="Airplane Canvas" class="product-image">
-      <p>A beautiful canvas print of an airplane — perfect for aviation lovers.</p>
-      <button onclick="addToCart('Airplane Canvas', 10.00)">Add to Cart</button>
-    </div>
-    
-    <div class="product" data-id="2" data-name="Aviator Sunglasses" data-price="0.0">
-      <h3>Aviator Sunglasses</h3>
-      <div class="image-placeholder">Item coming soon</div>
-      <p>N/A</p>
-      <button onclick="addToCart(2)">Add to Cart</button>
-    </div>
-    
-    <div class="product" data-id="3" data-name="Model Airplane" data-price="0.0">
-      <h3>Model Airplane</h3>
-      <div class="image-placeholder">Item coming soon</div>
-      <p>N/A</p>
-      <button onclick="addToCart(3)">Add to Cart</button>
-    </div>    
   </section>
 
-  <section id="checkout">
-    <h2>Checkout</h2>
-    <ul id="cart-list"></ul>
-    <p>Total: $<span id="total">0.00</span></p>
-    <button onclick="checkout()">Place Order</button>
-  </section>
+  <!-- Product Section -->
+<section class="product-section">
+  <h2 class="section-title">Featured Products</h2>
+  <div class="product-grid">
 
-  <script src="script.js"></script>
+    <!-- Product 1 -->
+<div class="product-card">
+  <div class="product-image-placeholder">Product Image 1</div>
+  <h3>Airplane Tee</h3>
+  <p>$25.00</p>
+  <button onclick="addToCart('Airplane Tee', 25.00)">Add to Cart</button>
+  <br>
+  <a href="product.html?product=airplane-tee" target="_blank" class="view-details">View Details</a>
+</div>
+
+
+    <!-- Product 2 -->
+<div class="product-card">
+  <div class="product-image-placeholder">Product Image 1</div>
+  <h3>Aviation Cap</h3>
+  <p>$18.00</p>
+  <button onclick="addToCart('Aviation Cap', 25.00)">Add to Cart</button>
+  <br>
+  <a href="product.html?product=aviation-cap" target="_blank" class="view-details">View Details</a>
+</div>
+
+
+  </div>
+</section>
+
+<!--  Cart Panel -->
+<div id="cart-overlay" class="cart-overlay hidden"></div>
+<aside id="cart-panel" class="cart-panel hidden">
+  <button id="cart-close" class="cart-close">&times;</button>
+  <h2>Your Cart</h2>
+  <ul id="cart-items" class="cart-items"></ul>
+  <div class="cart-total">
+    Total: $<span id="cart-total">0.00</span>
+  </div>
+  <button id="checkout-button" class="checkout-button">Checkout</button>
+</aside>
+
+<script src="script.js"></script>
+
+<a href="product.html?product=airplane-tee" target="_blank">View Details</a>
+
 </body>
 </html>
