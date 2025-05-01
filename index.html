@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AveNav</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="main-header">
+    <div class="logo">AveNav</div>
+    <nav>
+      <a href="#explore">Explore</a>
+      <a href="#about">About Me</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="explore" class="section">
+      <h1>Explore</h1>
+      
+      <!-- Options to choose between Helicopters and Airplanes -->
+      <div class="options">
+        <button id="airplanesBtn" onclick="showGallery('airplanes')">Airplanes</button>
+        <button id="helicoptersBtn" onclick="showGallery('helicopters')">Helicopters</button>
+      </div>
+    
+      <!-- Airplanes Gallery -->
+      <div id="airplanesGallery" class="gallery" style="display: none;">
+      <div class="photo-card" onclick="openModal(this)"
+          data-model="Boeing 737-4"
+          data-reg="ZS-JRM"
+          data-date="2025-02-02"
+          data-location="OR Tambo International (FAOR)">
+          <img src="https://i.postimg.cc/NfttLjzx/IMG-8831.jpg" alt="Airplane 1">
+          <p>FlySafair 737-4</p>
+      </div>
+
+      <div class="photo-card" onclick="openModal(this)"
+          data-model="Airbus A320-200"
+          data-reg="ZS-GAS"
+          data-date="2025-03-29"
+          data-location="OR Tambo International (FAOR)">
+          <img src="https://i.postimg.cc/D0gMSnSC/DSC-0602.jpg" alt="Airplane 2">
+          <p>Lift A320-2</p>
+      </div>
+        <!-- Add more airplane photo-cards here -->
+      </div>
+    
+      <!-- Helicopters Gallery -->
+      <div id="helicoptersGallery" class="gallery" style="display: none;">
+        <div class="photo-card" onclick="openModal(this)"
+          data-model="Robinson R44"
+          data-reg="ZS-REF"
+          data-date="2025-04-26"
+          data-location="Johannesburg Rand Airport (FAGM)">
+          <img src="https://i.postimg.cc/zfHwhT0H/DSC-0021.jpg" alt="Helicopter 1">
+          <p>Henley Air R44</p>
+      </div>
+      <div class="photo-card" onclick="openModal(this)"
+          data-model="Bell 222"
+          data-reg="ZT-HDD"
+          data-date="2025-04-26"
+          data-location="Johannesburg Rand Airport (FAGM)">
+          <img src="https://i.postimg.cc/dV8J4TZp/DSC-0278.jpg" alt="Helicopter 2">
+          <p>Private 222</p>
+      </div>
+        <!-- Add more helicopter photo-cards here -->
+      </div>
+    </section>
+    
+    <section id="about" class="section">
+      <h1>About Me</h1>
+      <div class="about-content">
+        <img src="https://i.postimg.cc/5t7mXgSM/IMG-20250501-WA0017.jpg" alt="Photo of me plane spotting">
+        <div class="about-text">
+          <p>Hi, I'm Conner — an aviation enthusiast and photographer with a passion for capturing aircraft in their natural element. From roaring jet engines to graceful rotor blades, I’ve been documenting aircraft from airports across the country. What started as a hobby has turned into a deep love for aviation and photography combined. Every aircraft has a story, and I aim to tell it through my lens.</p>
+          <p>This site showcases some of my favorite shots. Whether you're here to admire, connect, or collaborate — welcome aboard.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact" class="section">
+      <h1>Contact Me</h1>
+      <form action="https://formspree.io/f/xzzrdlan" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="_replyto" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    
+  </main>
+
+  <script src="js/main.js"></script>
+
+  <div id="imageModal" class="modal" onclick="closeModal()">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <img id="modalImage" src="" alt="Aircraft">
+      <div id="aircraftInfo">
+        <p><strong>Model:</strong> <span id="infoModel"></span></p>
+        <p><strong>Registration:</strong> <span id="infoReg"></span></p>
+        <p><strong>Date Taken:</strong> <span id="infoDate"></span></p>
+        <p><strong>Location:</strong> <span id="infoLocation"></span></p>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
