@@ -17,8 +17,11 @@
   </header>
 
   <main>
-    <section id="explore" class="section">
+    <section id="explore" class="section">  
       <h1>Explore</h1>
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search by model, reg, location, or engine type...">
+      </div>
       
       <!-- Options to choose between Helicopters and Airplanes -->
       <div class="options">
@@ -32,7 +35,13 @@
           data-model="Boeing 737-4"
           data-reg="ZS-JRM"
           data-date="2025-02-02"
-          data-location="OR Tambo International (FAOR)">
+          data-location="OR Tambo International (FAOR)"
+          data-engine="TurboFan"
+          data-airline="FlySafair"
+          data-country="South Africa"
+          data-firstflight="1988-06-17"
+          data-livery="Standard"
+          data-photographer="Conner Spies">
           <img src="https://i.postimg.cc/NfttLjzx/IMG-8831.jpg" alt="Airplane 1">
           <p>FlySafair 737-4</p>
       </div>
@@ -41,9 +50,105 @@
           data-model="Airbus A320-200"
           data-reg="ZS-GAS"
           data-date="2025-03-29"
-          data-location="OR Tambo International (FAOR)">
+          data-location="OR Tambo International (FAOR)"
+          data-engine="TurboFan"
+          data-airline="Lift"
+          data-country="South Africa"
+          data-firstflight="1987-02-22"
+          data-livery="Checkers Sixty60 Livery"
+          data-photographer="Conner Spies">
           <img src="https://i.postimg.cc/D0gMSnSC/DSC-0602.jpg" alt="Airplane 2">
           <p>Lift A320-2</p>
+      </div>
+      
+      <div class="photo-card" onclick="openModal(this)"
+          data-model="Airbus A380-800"
+          data-reg="A6-EOE"
+          data-date="2025-05-01"
+          data-location="OR Tambo International (FAOR)"
+          data-engine="TurboFan"
+          data-airline="Emirates"
+          data-country="United Arab Emirates"
+          data-firstflight="2005-04-27"
+          data-livery="Wimbledon Livery"
+          data-photographer="Conner Spies">
+          <img src="https://i.postimg.cc/mrZsJjP0/DSC-0098.jpg" alt="Airplane 3">
+          <p>Emirates(Wimbledon Livery) A380-8</p>
+      </div>
+
+      <div class="photo-card" onclick="openModal(this)"
+          data-model="Airbus A320-200"
+          data-reg="ZS-GAO"
+          data-date="2025-05-01"
+          data-location="OR Tambo International (FAOR)"
+          data-engine="TurboFan"
+          data-airline="Lift"
+          data-country="South Africa"
+          data-firstflight="1987-02-22"
+          data-livery="Standard"
+          data-photographer="Conner Spies">
+          <img src="https://i.postimg.cc/PxmQDW45/IMG-9091.jpg" alt="Airplane 4">
+          <p>Lift A320-2</p>
+      </div>
+      
+      <div class="photo-card" onclick="openModal(this)"
+          data-model="Embraer 135/145"
+          data-reg="Z-FJF"
+          data-date="2025-05-01"
+          data-location="OR Tambo International (FAOR)"
+          data-engine="TurboFan"
+          data-airline="FastJet Zambabwe"
+          data-country="Zambabwe"
+          data-firstflight="1995-08-11(ERJ 145), 1998-06-04(ERJ 135)"
+          data-livery="Standard"
+          data-photographer="Conner Spies">
+          <img src="https://i.postimg.cc/G3gHQB5L/IMG-9056.jpg" alt="Airplane 5">
+          <p>FastJet Zimbabwe E135/145</p>
+      </div>
+
+      <div class="photo-card" onclick="openModal(this)"
+          data-model="Boeing 777-300ER"
+          data-reg="D2-TEJ"
+          data-date="2025-05-01"
+          data-location="OR Tambo International (FAOR)"
+          data-engine="TurboFan"
+          data-airline="TAAG, Linhas Aereas De Angola"
+          data-country="Angola"
+          data-firstflight="2003-02-24"
+          data-livery="Standard"
+          data-photographer="Conner Spies">
+          <img src="https://i.postimg.cc/nzyVy7bB/IMG-8804.jpg" alt="Airplane 6">
+          <p>TAAG, Linhas Aereas De Angola 77W</p>
+      </div>
+
+      <div class="photo-card" onclick="openModal(this)"
+          data-model="Boeing 787-900 Dreamliner"
+          data-reg="G-VAHH"
+          data-date="2025-03-29"
+          data-location="OR Tambo International (FAOR)"
+          data-engine="TurboFan"
+          data-airline="Virgin Atlantic"
+          data-country="United Kingdom"
+          data-firstflight="2013-09-17"
+          data-livery="Standard"
+          data-photographer="Conner Spies">
+          <img src="https://i.postimg.cc/LXQqWhNM/DSC-0556.jpg" alt="Airplane 7">
+          <p>Virgin Atlantic 787-9</p>
+      </div>
+
+      <div class="photo-card" onclick="openModal(this)"
+          data-model="Airbus A340-300"
+          data-reg="HB-JMH"
+          data-date="2025-03-29"
+          data-location="OR Tambo International (FAOR)"
+          data-engine="TurboFan"
+          data-airline="Swiss"
+          data-country="Switzerland"
+          data-firstflight="1991-10-25"
+          data-livery="Standard"
+          data-photographer="Conner Spies">
+          <img src="https://i.postimg.cc/52WXThqj/DSC-0468.jpg" alt="Airplane 8">
+          <p>Swiss A330-3</p>
       </div>
         <!-- Add more airplane photo-cards here -->
       </div>
@@ -54,17 +159,120 @@
           data-model="Robinson R44"
           data-reg="ZS-REF"
           data-date="2025-04-26"
-          data-location="Johannesburg Rand Airport (FAGM)">
+          data-location="Johannesburg Rand Airport (FAGM)"
+          data-engine="TurboShaft"
+          data-airline="Henly Air"
+          data-country="South Africa"
+          data-firstflight="1990-03-31"
+          data-livery="Standard"
+          data-photographer="Conner Spies">
           <img src="https://i.postimg.cc/zfHwhT0H/DSC-0021.jpg" alt="Helicopter 1">
           <p>Henley Air R44</p>
       </div>
+
       <div class="photo-card" onclick="openModal(this)"
           data-model="Bell 222"
           data-reg="ZT-HDD"
           data-date="2025-04-26"
-          data-location="Johannesburg Rand Airport (FAGM)">
+          data-location="Johannesburg Rand Airport (FAGM)"
+          data-engine="TurboShaft"
+          data-airline="Private"
+          data-country="United States of America"
+          data-firstflight="1973-08-13"
+          data-livery="Standard"
+          data-photographer="Conner Spies">
           <img src="https://i.postimg.cc/dV8J4TZp/DSC-0278.jpg" alt="Helicopter 2">
           <p>Private 222</p>
+      </div>
+
+      <div class="photo-card" onclick="openModal(this)"
+          data-model="Bell UH-1 Iroquois (Huey)"
+          data-reg="ZS-HTZ"
+          data-date="2025-04-26"
+          data-location="Johannesburg Rand Airport (FAGM)"
+          data-engine="TurboShaft"
+          data-airline="Private"
+          data-country="South Africa"
+          data-firstflight="1956-10-20"
+          data-livery="Standard"
+          data-photographer="Conner Spies">
+          <img src="https://i.postimg.cc/mZ96BMWk/DSC-0503.jpg" alt="Helicopter 3">
+          <p>Private UH-1(Huey)</p>
+      </div>
+
+      <div class="photo-card" onclick="openModal(this)"
+          data-model="Bell 230"
+          data-reg="ZT-HDC"
+          data-date="2025-04-26"
+          data-location="Johannesburg Rand Airport (FAGM)"
+          data-engine="TurboShaft"
+          data-airline="Private (Ex Rocket Air Ambulance)"
+          data-country="South Africa"
+          data-firstflight="1991-08-12"
+          data-livery="Standard"
+          data-photographer="Conner Spies">
+          <img src="https://i.postimg.cc/Y2Q8JHQm/DSC-0272.jpg" alt="Helicopter 4">
+          <p>Private 230</p>
+      </div>
+
+      <div class="photo-card" onclick="openModal(this)"
+          data-model="Eurocopter AS350 B2 Ecureuil"
+          data-reg="ZS-RDW"
+          data-date="2025-04-26"
+          data-location="Johannesburg Rand Airport (FAGM)"
+          data-engine="TurboShaft"
+          data-airline="Gauteng Traffic Control"
+          data-country="South Africa"
+          data-firstflight="1987-02-06"
+          data-livery="Standard"
+          data-photographer="Conner Spies">
+          <img src="https://i.postimg.cc/8PH4zmKp/DSC-0110.jpg" alt="Helicopter 5">
+          <p>Gauteng Traffic Control AS350 B2</p>
+      </div>
+
+      <div class="photo-card" onclick="openModal(this)"
+          data-model="Robinson R44"
+          data-reg="ZS-RUJ"
+          data-date="2025-04-26"
+          data-location="Johannesburg Rand Airport (FAGM)"
+          data-engine="TurboShaft"
+          data-airline="Henly Air"
+          data-country="South Africa"
+          data-firstflight="1990-03-31"
+          data-livery="Standard"
+          data-photographer="Conner Spies">
+          <img src="https://i.postimg.cc/D0crm7cj/DSC-0169.jpg" alt="Helicopter 6">
+          <p>Henly Air R44</p>
+      </div>
+
+      <div class="photo-card" onclick="openModal(this)"
+          data-model="Robinson R44"
+          data-reg="ZS-RYX"
+          data-date="2025-04-26"
+          data-location="Johannesburg Rand Airport (FAGM)"
+          data-engine="TurboShaft"
+          data-airline="Henly Air"
+          data-country="South Africa"
+          data-firstflight="1990-03-31"
+          data-livery="Standard"
+          data-photographer="Conner Spies">
+          <img src="https://i.postimg.cc/XJfFDntj/DSC-0523.jpg" alt="Helicopter 7">
+          <p>Henly Air R44</p>
+      </div>
+
+      <div class="photo-card" onclick="openModal(this)"
+          data-model="Eurocopter AS350 B2 Ecureuil"
+          data-reg="ZT-RFP"
+          data-date="2025-04-26"
+          data-location="Johannesburg Rand Airport (FAGM)"
+          data-engine="TurboShaft"
+          data-airline="South African Police Service"
+          data-country="South Africa"
+          data-firstflight="1987-02-06"
+          data-livery="Standard"
+          data-photographer="Conner Spies">
+          <img src="https://i.postimg.cc/XJbB5TqT/DSC-0422.jpg" alt="Helicopter 8">
+          <p>SAPS Police AS350 B2</p>
       </div>
         <!-- Add more helicopter photo-cards here -->
       </div>
@@ -104,9 +312,17 @@
         <p><strong>Registration:</strong> <span id="infoReg"></span></p>
         <p><strong>Date Taken:</strong> <span id="infoDate"></span></p>
         <p><strong>Location:</strong> <span id="infoLocation"></span></p>
+        <p><strong>Engine Type:</strong> <span id="infoEngine"></span></p>
+        <p><strong>Airline:</strong> <span id="infoAirline"></span></p>
+        <p><strong>Country:</strong> <span id="infoCountry"></span></p>
+        <p><strong>First Flight:</strong> <span id="infoFirstFlight"></span></p>
+        <p><strong>Livery:</strong> <span id="infoLivery"></span></p>
+        <p><strong>Photographer:</strong> <span id="infoPhotographer"></span></p>
+
       </div>
     </div>
   </div>
   
 </body>
 </html>
+
