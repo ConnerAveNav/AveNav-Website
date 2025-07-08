@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conner Aviation</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="update-banner">
+  <div class="slide-text">
+    Update underway
+    <span class="spacer"></span>
+    Update 2.0 (New filter system, Website style, Learn section etc)
+    <span class="spacer"></span>
+    "Learn Section" pending important update
+    <span class="spacer"></span>
+    "Message Me" if you find a bug!
+    <span class="spacer"></span>
+    More aircraft and learning cards added soon!
+  </div>
+  </div>
+  <header>
+  <h1>Conner Aviation</h1>
+
+  <nav class="nav-desktop">
+    <a href="#gallery">Gallery</a>
+    <a href="#learn">Learn</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <button class="hamburger" onclick="toggleMobileNav()">☰</button>
+
+  <nav class="nav-mobile" id="mobileNav">
+    <a href="#gallery" onclick="toggleMobileNav()">Gallery</a>
+    <a href="#learn" onclick="toggleMobileNav()">Learn</a>
+    <a href="#about" onclick="toggleMobileNav()">About</a>
+    <a href="#contact" onclick="toggleMobileNav()">Contact</a>
+  </nav>
+</header>
+
+
+  <section class="hero">
+    <h2>Explore the Skies</h2>
+    <p>Showcasing aviation through the lens of passion and precision.</p>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <div class="search-filter-container">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search by Reg, Livery, or Plane Type..."
+        oninput="filterCards()"
+      />
+
+      <button class="filter-toggle-btn" onclick="toggleFilters()">Filter ⏷</button>
+
+      <div class="filter-panel" id="filterPanel">
+        <h4>Filter by Type</h4>
+        <label><input type="checkbox" value="Turbocharge Engine" onchange="filterCards()"> Turbocharge Engine</label><br />
+        <label><input type="checkbox" value="Turboprop Engine" onchange="filterCards()"> Turboprop</label><br />
+        <label><input type="checkbox" value="Turbofan Engine" onchange="filterCards()"> Turbofan Engine</label><br />
+        <label><input type="checkbox" value="Turboshaft Engine" onchange="filterCards()"> Turboshaft Engine</label><br />
+        <label><input type="checkbox" value="Piston Engine" onchange="filterCards()"> Piston Engine</label><br />
+        <label><input type="checkbox" value="Piston Aero Engine" onchange="filterCards()"> Piston Aero Engine</label><br />
+        <label><input type="checkbox" value="Radial Engine" onchange="filterCards()"> Radial Engine</label>
+
+        <h4 style="margin-top:1rem;">Filter by Livery</h4>
+        <label><input type="checkbox" value="British Airways" onchange="filterCards()"> British Airways</label><br />
+        <label><input type="checkbox" value="South African Airways" onchange="filterCards()"> South African Airways</label><br />
+        <label><input type="checkbox" value="Generic" onchange="filterCards()"> Generic</label>
+      </div>
+    </div>
+
+    <div class="grid" id="galleryGrid">
+      <!-- Photo Card 1 -->
+      <div class="photo-card" data-reg="ZS-PCH" data-livery="Ptivate" data-type="Turboprop" onclick="toggleCard(this)">
+        <div class="card-image">
+          <img src="https://i.postimg.cc/mrL4nLPY/DSC-0615.jpg" alt="Plane 1" />
+        </div>
+        <div class="card-info">
+          <h3>Beechcraft - King Air B200</h3>
+          <p><strong>Registration:</strong> ZS-PCH</p>
+          <p><strong>Livery:</strong> Private</p>
+          <p><strong>Type:</strong> Turboprop</p>
+        </div>
+      </div>
+
+      <!-- Photo Card 2 -->
+      <div class="photo-card" data-reg="ZS-RHK" data-livery="Private" data-type="Turboshaft" onclick="toggleCard(this)">
+        <div class="card-image">
+          <img src="https://i.postimg.cc/85y0tv3v/DSC-0569.jpg" alt="Plane 2" />
+        </div>
+        <div class="card-info">
+          <h3>Bell Textron - Bell 407</h3>
+          <p><strong>Registration:</strong> ZS-RHK</p>
+          <p><strong>Livery:</strong> Private</p>
+          <p><strong>Type:</strong> Turboshaft</p>
+        </div>
+      </div>
+
+      <!-- Photo Card 3 -->
+      <div class="photo-card" data-reg="ZU-PPL" data-livery="Aviation Junction" data-type="Piston Aero Engine" onclick="toggleCard(this)">
+        <div class="card-image">
+          <img src="https://i.postimg.cc/PxLRVJkF/DSC-0170.jpg" alt="Plane 3" />
+        </div>
+        <div class="card-info">
+          <h3>Jabiru Aircraft Pty Ltd - Jabiru J430</h3>
+          <p><strong>Registration:</strong> ZU-PPL</p>
+          <p><strong>Livery:</strong> Aviation Junction Flight School</p>
+          <p><strong>Type:</strong> Piston Aero Engine</p>
+        </div>
+      </div>
+
+      <!-- Photo Card 4 -->
+      <div class="photo-card" data-reg="ZS-RRV" data-livery="Henley Air" data-type="Piston Engine" onclick="toggleCard(this)">
+        <div class="card-image">
+          <img src="https://i.postimg.cc/bvZgp5FZ/DSC-0264.jpg" alt="Plane 4" />
+        </div>
+        <div class="card-info">
+          <h3>Robinson Helicopter Company - R44</h3>
+          <p><strong>Registration:</strong> ZS-RRV</p>
+          <p><strong>Livery:</strong> Henley Air Flight School</p>
+          <p><strong>Type:</strong> Piston Engine</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="fly-further-btn" onclick="window.location.href='gallery.html'">Fly Further</button>
+  </section>
+
+  <section id="learn" class="learn">
+  <h2>Learn Aviation</h2>
+  <div class="cards" id="learnGrid">
+    <div class="card">
+      <h3>What is an ILS?</h3>
+      <p>ILS stands for Instrument Landing System. It's a ground-based system that guides aircraft to the runway.</p>
+    </div>
+
+    <div class="card">
+      <h3>Types of Aircraft</h3>
+      <p>From turboprops to jets, learn the main categories and how they operate.</p>
+    </div>
+
+    <div class="card">
+      <h3>Flight Instruments</h3>
+      <p>Learn about altimeters, airspeed indicators, and attitude indicators.</p>
+    </div>
+
+    <div class="card">
+      <h3>Weather and Aviation</h3>
+      <p>Understanding weather patterns that affect flying.</p>
+    </div>
+
+  </div>
+  <button class="fly-further-btn" onclick="window.location.href='learn.html'">Learn More</button>
+</section>
+
+  <section id="about" class="about">
+  <h2>About Me</h2>
+  <div class="about-content">
+    <div class="about-text">
+      <p>Hey, I’m <strong>Conner</strong> — an aviation photographer and enthusiast based in South Africa.</p>
+      <p>I created Conner Aviation to share my passion for aircraft, flight, and everything in between. From photographing planes on approach to explaining complex aviation concepts, I want this site to be a hub for aviation lovers and curious minds alike.</p>
+      <p>Whether you're just starting out or a fellow avgeek, I hope you find this site inspiring and informative. I am the proud owner of the AveNav brand with the name <strong>AveNav</strong> meaning Ave-Aviation and Nav-Navigation. I aim to explore the world through flight and meet people with the same passion.</p>
+    </div>
+    <div class="about-image">
+      <img src="https://i.postimg.cc//rwT5cTJn/IMG-2901-1.jpg" alt="Conner portrait">
+    </div>
+  </div>
+</section>
+
+
+  <section id="contact" class="contact">
+  <h2>Contact</h2>
+  <p>Want to connect, collaborate, or ask a question? I'd love to hear from you.</p>
+  <button class="fly-further-btn" onclick="window.location.href='contact.html'">Message Me</button>
+</section>
+
+
+  <footer>
+    <p>&copy; 2025 Conner Aviation. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact – Conner Aviation</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="update-banner">
+  <div class="slide-text">
+    Update underway
+    <span class="spacer"></span>
+    Update 2.0 (New filter system, Website style, Learn section etc)
+    <span class="spacer"></span>
+    "Learn Section" pending important update
+    <span class="spacer"></span>
+    More aircraft and learning cards added soon!
+  </div>
+  </div>
+  <header>
+    <h1>Conner Aviation</h1>
+
+    <nav class="nav-desktop">
+      <a href="index.html#gallery">Gallery</a>
+      <a href="index.html#learn">Learn</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <button class="hamburger" onclick="toggleMobileNav()">☰</button>
+
+    <nav class="nav-mobile" id="mobileNav">
+      <a href="index.html#gallery" onclick="toggleMobileNav()">Gallery</a>
+      <a href="index.html#learn" onclick="toggleMobileNav()">Learn</a>
+      <a href="index.html#about" onclick="toggleMobileNav()">About</a>
+      <a href="index.html#contact" onclick="toggleMobileNav()">Contact</a>
+    </nav>
+  </header>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Got a question, want to collaborate, or just say hi? Drop me a message below!</p>
+
+    <form action="https://formspree.io/f/xblyevyw" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Conner Aviation. All rights reserved.</p>
+  </footer>
+</body>
+</html>

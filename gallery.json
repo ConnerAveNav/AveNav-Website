@@ -1,0 +1,219 @@
+[
+  {
+    "reg": "ZS-PCH",
+    "livery": "Private",
+    "type": "Turboprop",
+    "title": "Beechcraft - King Air B200",
+    "desc": "The King Air B200 is generally used for business travel, express freight divery, air ambulance services, and various goverment and military missions, due to its versatility, ability to operate on shorter runways, and preformance in diverse conditions.",
+    "img": "https://i.postimg.cc/mrL4nLPY/DSC-0615.jpg"
+  },
+  {
+    "reg": "ZS-RHK",
+    "livery": "Private",
+    "type": "Turboshaft Engine",
+    "title": "Bell Textron - Bell 407",
+    "desc": "The Bell 407 is a versatile utility helicopter commonly used for corporate and offshore transport, air ambulance services, law enforcment, electronic news gathering, and flimmaking.",
+    "img": "https://i.postimg.cc/85y0tv3v/DSC-0569.jpg"
+  },
+  {
+    "reg": "ZU-PPL",
+    "livery": "Aviation Junction",
+    "type": "Piston Aero Engine",
+    "title": "Jabiru Aircraft Pty Ltd - Jabiru J430",
+    "desc": "The Jabiru J430 is generally used as a four-seat light touring aircraft, often provided in kit form. It's popular for recreational flying, flight training, rural property managment, commuting, surveillance, and surveying, particularly in some African countries for anti-poaching and wildlife conservation.",
+    "img": "https://i.postimg.cc/PxLRVJkF/DSC-0170.jpg"
+  },
+  {
+    "reg": "ZS-RRV",
+    "livery": "Henley Air Flight School",
+    "type": "Piston Engine",
+    "title": "Robinson Helicopter Company - R44 Raven II",
+    "desc": "The Robinson R44 is a versatile four-seat helicopter primarily used for pilot training, scenic flights, aerial photography and filming, general charter, news gathering, law enforcement, and wildlife managment.",
+    "img": "https://i.postimg.cc/bvZgp5FZ/DSC-0264.jpg"
+  },
+  {
+    "reg": "ZU-FKM",
+    "livery": "Private",
+    "type": "Piston Engine",
+    "title": "Tecnam Aircraft - Tecnam P.2004 Bravo",
+    "desc": "The Tecnam P.2004 Bravo is generally used as a light sport aircraft(LSA) for both recreational flying and flight training.",
+    "img": "https://i.postimg.cc/TYCYXNbM/DSC-0472.jpg"
+  },
+  {
+    "reg": "ZS-HNO",
+    "livery": "Empo",
+    "type": "Turboshaft Engine",
+    "title": "Bell Textron - Bell 206B III",
+    "desc": "The Bell 206B III was generally used for various civilian and commercial roles, including corporate transport, aerial photography, law enforcement, sightseeing tours, emergency medical services (EMS), and utility operations like powerline inspections. Ot was also used for military training.",
+    "img": "https://i.postimg.cc/XvFbXsrv/DSC-0470.jpg"
+  },
+  {
+    "reg": "ZS-MUE",
+    "livery": "Safomar Aviation Operations Flight School",
+    "type": "Piston Engine",
+    "title": "Piper Aircraft - Piper PA-28-161 Warrior II",
+    "desc": "The Piper PA-28-161 Warrior II is primarily used for flight training, personal use, and air taxi services. Its stable flight characteristics, relatively low operating costs, and forgiving nature make it a popular choice for student pilots and private owners alike.",
+    "img": "https://i.postimg.cc/J0c8bMVd/DSC-0182.jpg"
+  },
+  {
+    "reg": "ZS-EGP",
+    "livery": "Springbok Air Academy",
+    "type": "Piston Engine",
+    "title": "Cessna Aircraft Company - Cessna 150F",
+    "desc": "The Cessna 150F is primarily used for flight training, touring, and personal use due to its simplicity, reliability, and low operating costs.",
+    "img": "https://i.postimg.cc/hvKz2Jk9/DSC-0145.jpg"
+  },
+  {
+    "reg": "ZS-RYX",
+    "livery": "Henley Air Flight School",
+    "type": "Piston Engine",
+    "title": "Robinson Helicopter Company - R44 Raven II",
+    "desc": "The Robinson R44 is a versatile four-seat helicopter primarily used for pilot training, scenic flights, aerial photography and filming, general charter, news gathering, law enforcement, and wildlife managment.",
+    "img": "https://i.postimg.cc/WbgFHkjQ/DSC-0251.jpg"
+  },
+  {
+    "reg": "ZS-IKE",
+    "livery": "Private",
+    "type": "Piston Engine",
+    "title": "Piper Aircraft - Piper PA-28-161 Warrior II",
+    "desc": "The Piper PA-28-161 Warrior II is primarily used for flight training, personal use, and air taxi services. Its stable flight characteristics, relatively low operating costs, and forgiving nature make it a popular choice for student pilots and private owners alike.",
+    "img": "https://i.postimg.cc/Hnr3shLZ/DSC-0200.jpg"
+  },
+  {
+    "reg": "ZU-FNE",
+    "livery": "Private",
+    "type": "Radial Engine",
+    "title": "North American Aviation - T-6 Harvard",
+    "desc": "The T-6 was primarily used as an advanced trainer aircraft for pilots transitioning to fighter and bomber aircraft during World War II and well into the 1950s. It also saw some combat use in vasious conflicts.",
+    "img": "https://i.postimg.cc/52kV5sT1/DSC-0128.jpg"
+  },
+  {
+    "reg": "ZS-OWX",
+    "livery": "Valan International Cargo Charter",
+    "type": "Turboprop Engine",
+    "title": "Antonov Design Bureai of Ukraine - Antonov An-32B",
+    "desc": "The Antonov An-32B is primarily used as a light military transport aircraft for cargo, passenger, and paradropping, especially in hot or high conditions. It can also be used for medical evacuation and firefighting.",
+    "img": "https://i.postimg.cc/R0rPzfnK/DSC-0050.jpg"
+  },
+  {
+    "reg": "ZU-NTT",
+    "livery": "Private",
+    "type": "Turbocharge Engine",
+    "title": "Sling Aircraft - Sling 4",
+    "desc": "The Sling 4 is generally used for as a four-seat light sport aircraft for cross-country touring, personal use, and recreational flying, perticularly appealing to owner-builders due to its kit availability.",
+    "img": "https://i.postimg.cc/bvztbN74/DSC-0258.jpg"
+  },
+  {
+    "reg": "ZS-REF",
+    "livery": "Henley Air Flight School",
+    "type": "Piston Engine",
+    "title": "Robinson Helicopter Company - R44 Astro",
+    "desc": "The Robinson R44 is a versatile four-seat helicopter primarily used for pilot training, scenic flights, aerial photography and filming, general charter, news gathering, law enforcement, and wildlife managment.",
+    "img": "https://i.postimg.cc/TYVjWSyL/DSC-0182.jpg"
+  },
+  {
+    "reg": "ZS-RFT",
+    "livery": "South African Police Service",
+    "type": "Turboshaft Engine",
+    "title": "Eurocopter AS350 B2 Ecureuil",
+    "desc": "The Eurocopter AS350 B2 Écureuil, also known as the Squirrel, was a versatile helicopter widely used for various purposes due to its performance, reliability, and adaptability. It was commonly employed in roles such as law enforcement, emergency medical services (EMS), aerial work, and passenger transport.",
+    "img": "https://i.postimg.cc/kgjbQd74/DSC-0140.jpg"
+  },
+  {
+    "reg": "ZU-RNF",
+    "livery": "Private",
+    "type": "Turboshaft Engine",
+    "title": "Aérospatiale - SA 315B Lama",
+    "desc": "The SA 315B Lama was generally used as a light utility helicopter, primariy for operating in hot and high conditions, especially in mountainous regions. Its roles include light passenger and cargo transport, underslung load carrying.(up to 1000kg), search and rescue, medical evacuation, agricultural tasks,oil and gas exploration, and aerial firefighting. It was also used for military liasion, observation, and photography",
+    "img": "https://i.postimg.cc/c1M67NmS/DSC-0029.jpg"
+  },
+  {
+    "reg": "A6-EUF",
+    "livery": "Emirates Airlines",
+    "type": "Turbofan Engine",
+    "title": "Airbus - A380-861",
+    "desc": "The A380 is generally used for long-haul international passenger flights due to its large capacity and focus on passenger comfort.",
+    "img": "https://i.postimg.cc/mkqnznh6/DSC-0065.jpg"
+  },
+  {
+    "reg": "5Y-KZD",
+    "livery": "Kenya Airways",
+    "type": "Turbofan Engine",
+    "title": "The Boeing Company - 787-8 Dreamliner",
+    "desc": "The Boeing 787-8 Dreamliner is generally used for long-hual, international passenger flights,offering airlines fuel efficiency, passenger comfort, and the ability to open new direct routes.",
+    "img": "https://i.postimg.cc/13Pzf76z/DSC-1108.jpg"
+  },
+  {
+    "reg": "A7-BDB",
+    "livery": "Qatar Airways",
+    "type": "Turbofan Engine",
+    "title": "The Boeing Company - 787-800 Dreamliner",
+    "desc": "The Boeing 787-800 Dreamliner is generally used for long-hual, international passenger flights,offering airlines fuel efficiency, passenger comfort, and the ability to open new direct routes.",
+    "img": "https://i.postimg.cc/KcMcQhDz/DSC-1072.jpg"
+  },
+  {
+    "reg": "ZS-SJU",
+    "livery": "FlySafair(Springboks livery)",
+    "type": "Turbofan Engine",
+    "title": "The Boeing Company - 737-800",
+    "desc": "The Boeing 737-800 is generally used for short to medium-haul commercial passenger flights by airlines worldwide.",
+    "img": "https://i.postimg.cc/QCr20wj9/DSC-1163.jpg"
+  },
+  {
+    "reg": "ZS-OAF",
+    "livery": "FlySafair",
+    "type": "Turbofan Engine",
+    "title": "The Boeing Company - 737-4S3",
+    "desc": "The Boeing 737-400 is generally used for short to medium-haul commercial passenger flights, though many have been converted to cargo operations as they are phased out of passenger service.",
+    "img": "https://i.postimg.cc/D0FNqGc1/DSC-0809.jpg"
+  },
+  {
+    "reg": "9XR-WQ",
+    "livery": "RwandAir",
+    "type": "Turbofan Engine",
+    "title": "The Boeing Company - 737-800",
+    "desc": "The Boeing 737-800 is generally used for short to medium-haul commercial passenger flights by airlines worldwide.",
+    "img": "https://i.postimg.cc/NMxDvz1r/DSC-0755.jpg"
+  },
+  {
+    "reg": "ZS-ALL",
+    "livery": "Airlink",
+    "type": "Turbofan Engine",
+    "title": "Embraer - ERJ-140LR",
+    "desc": "The ERJ-140LR is generally used for regional passenger flights by airlines, offering inceased range and capacity compared to smaller regional jets.",
+    "img": "https://i.postimg.cc/0yJCyQYv/DSC-0669.jpg"
+  },
+  {
+    "reg": "ZS-FJA",
+    "livery": "Fastjet Zimbabwe",
+    "type": "Turbofan Engine",
+    "title": "Embraer - ERJ-145LR",
+    "desc": "The ERJ-145LR is generally used for regional passenger flights, particularly on routes requiring longer range and higher passenger capacity than smaller regional jets. Its is also utilized for corporate charters and specialized operations due to its comfort and preformance.",
+    "img": "https://i.postimg.cc/prpFcGkv/DSC-0594.jpg"
+  },
+  {
+    "reg": "ZS-YAB",
+    "livery": "Airlink",
+    "type": "Turbofan Engine",
+    "title": "Embraer - ERJ-190-100IGW",
+    "desc": "The ERJ-190-100IGW is generally used for short to medium-haul regional passenger flights.",
+    "img": "https://i.postimg.cc/sg9vmCyS/DSC-0618.jpg"
+  },
+  {
+    "reg": "ZS-SZG",
+    "livery": "South African Airways",
+    "type": "Turbofan Engine",
+    "title": "Airbus - A320-232",
+    "desc": "The A320-200 is primarily used for short to medium-haul commercial passenger flights. It is a popular narrow-body aircraft for both low-cost and mainline airlines worldwide.",
+    "img": "https://i.postimg.cc/cJxcZNcM/DSC-0486.jpg"
+  },
+  {
+    "reg": "ZS-DHG",
+    "livery": "CemAir(20 Year Livery)",
+    "type": "Turboprop Engine",
+    "title": "De Havilland Canada - Bombardier Dash 8-Q402",
+    "desc": "The Dash 8 aircraft is primarily used for regional passenger and cargo transport. Its versatility aslo allows it to be used for firefighting, maritime surveillance, and other special mission roles, especially given its ability to operate from smaller airports and unpaved runways.",
+    "img": "https://i.postimg.cc/Vvq8w1KW/DSC-0851.jpg"
+  }
+]
+

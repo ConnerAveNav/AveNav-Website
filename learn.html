@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learn – Conner Aviation</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="learn.js"></script>
+</head>
+<body>
+  <div class="update-banner">
+  <div class="slide-text">
+    Update underway
+    <span class="spacer"></span>
+    Update 2.0 (New filter system, Website style, Learn section etc)
+    <span class="spacer"></span>
+    "Learn Section" pending important update
+    <span class="spacer"></span>
+    More aircraft and learning cards added soon!
+  </div>
+  </div>
+  <header>
+    <h1>Conner Aviation</h1>
+
+    <nav class="nav-desktop">
+      <a href="index.html#gallery">Gallery</a>
+      <a href="index.html#learn">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <button class="hamburger" onclick="toggleMobileNav()">☰</button>
+
+    <nav class="nav-mobile" id="mobileNav">
+      <a href="index.html#gallery" onclick="toggleMobileNav()">Gallery</a>
+      <a href="index.html#learn" onclick="toggleMobileNav()">Home</a>
+      <a href="index.html#about" onclick="toggleMobileNav()">About</a>
+      <a href="index.html#contact" onclick="toggleMobileNav()">Contact</a>
+    </nav>
+
+  </header>
+
+  <section class="learn">
+    <h2>Learn Aviation</h2>
+
+    <input
+      type="text"
+      id="learnSearchInput"
+      placeholder="Search learning topics..."
+      oninput="filterLearnCards()"
+      style="margin-bottom: 1rem; padding: 0.5rem; width: 100%; max-width: 400px;"
+    />
+
+    <div class="cards" id="learnGrid">
+      <!-- All learn cards will be loaded here -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Conner Aviation. All rights reserved.</p>
+  </footer>
+</body>
+</html>

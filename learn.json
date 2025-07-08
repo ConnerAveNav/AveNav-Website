@@ -1,0 +1,143 @@
+[
+  {
+    "title": "What is an ILS?",
+    "content": "ILS stands for Instrument Landing System. It's a ground-based system that guides aircraft to the runway."
+  },
+  {
+    "title": "Types of Aircraft",
+    "content": "From turboprops to jets, learn the main categories and how they operate."
+  },
+  {
+    "title": "Flight Instruments",
+    "content": "Learn about altimeters, airspeed indicators, and attitude indicators."
+  },
+  {
+    "title": "Air Traffic Control Basics",
+    "content": "How ATC manages airspace and keeps flights safe."
+  },
+  {
+    "title": "Weather and Aviation",
+    "content": "Understanding weather patterns that affect flying."
+  },
+  {
+    "title": "Aircraft Lighting Systems",
+    "content": "Navigation lights, landing lights, strobe lights, and beacon lights all serve important functions for visibility and safety, both in the air and on the ground."
+  },
+  {
+    "title": "VOR Navigation",
+    "content": "VHF Omnidirectional Range (VOR) is a type of radio navigation system for aircraft, providing directional guidance based on ground-based stations."
+  },
+  {
+    "title": "Transponders and Squawk Codes",
+    "content": "Aircraft transponders help ATC identify and track aircraft. Specific squawk codes are used for emergencies, such as 7500 for hijacking, 7600 for radio failure, and 7700 for general emergencies."
+  },
+  {
+    "title": "Aircraft Call Signs",
+    "content": "An aircraft’s call sign includes its airline name and flight number or registration. For example, 'Speedbird 123' for British Airways, or 'Zulu Sierra Alpha Bravo Charlie' for a general aviation plane."
+  },
+  {
+    "title": "Holding Patterns",
+    "content": "Used during delays or heavy traffic, holding patterns are racetrack-shaped flight paths where aircraft circle while waiting for clearance to continue."
+  },
+  {
+    "title": "What is an ILS?",
+    "content": "ILS stands for Instrument Landing System. It's a ground-based system that guides aircraft to the runway."
+  },
+  {
+    "title": "Types of Aircraft",
+    "content": "From turboprops to jets, learn the main categories and how they operate."
+  },
+  {
+    "title": "Flight Instruments",
+    "content": "Learn about altimeters, airspeed indicators, and attitude indicators."
+  },
+  {
+    "title": "Air Traffic Control Basics",
+    "content": "How ATC manages airspace and keeps flights safe."
+  },
+  {
+    "title": "Weather and Aviation",
+    "content": "Understanding weather patterns that affect flying."
+  },
+  {
+    "title": "Aircraft Lighting Systems",
+    "content": "Navigation lights, landing lights, strobe lights, and beacon lights all serve important functions for visibility and safety."
+  },
+  {
+    "title": "VOR Navigation",
+    "content": "VHF Omnidirectional Range is a radio navigation system for guiding aircraft using ground-based stations."
+  },
+  {
+    "title": "Transponders and Squawk Codes",
+    "content": "Squawk codes help ATC identify aircraft. Common emergency codes: 7500 for hijack, 7600 for radio failure, 7700 for general emergency."
+  },
+  {
+    "title": "Call Signs",
+    "content": "Aircraft are identified by call signs, which may include airline name and flight number or registration."
+  },
+  {
+    "title": "Holding Patterns",
+    "content": "Holding patterns are racetrack-shaped loops aircraft fly while waiting for landing clearance."
+  },
+  {
+    "title": "Runway Numbering",
+    "content": "Runway numbers are based on their magnetic heading, rounded to the nearest 10 degrees."
+  },
+  {
+    "title": "Taxiway Markings",
+    "content": "Yellow lines and signs guide pilots on taxiways at airports. They help avoid wrong turns or runway incursions."
+  },
+  {
+    "title": "METAR and TAF Reports",
+    "content": "METARs give current weather at airports, while TAFs are aviation forecasts. Pilots use both to plan flights."
+  },
+  {
+    "title": "Aircraft Engines",
+    "content": "Jets, turboprops, and piston engines each power different types of aircraft, depending on mission and size."
+  },
+  {
+    "title": "Stall and Spin",
+    "content": "A stall happens when lift is lost due to too high an angle of attack. A spin is an uncontrolled descent following a stall."
+  },
+  {
+    "title": "Flaps and Slats",
+    "content": "These extend from the wings to help aircraft take off and land at lower speeds by increasing lift."
+  },
+  {
+    "title": "ATIS Broadcasts",
+    "content": "Automatic Terminal Information Service gives pilots the latest weather and airport info before they contact ATC."
+  },
+  {
+    "title": "NOTAMs",
+    "content": "Notice to Air Missions — alerts pilots to hazards or changes at airports or in airspace."
+  },
+  {
+    "title": "Wake Turbulence",
+    "content": "Larger aircraft generate turbulent air behind them, which can be dangerous for smaller planes following too closely."
+  },
+  {
+    "title": "Jet Streams",
+    "content": "High-altitude winds that can significantly affect aircraft speed and fuel efficiency depending on direction."
+  },
+  {
+    "title": "Autopilot",
+    "content": "Autopilot systems help pilots fly the aircraft by automatically controlling heading, altitude, and speed."
+  },
+  {
+    "title": "Ground Effect",
+    "content": "An increase in lift and decrease in drag when flying very close to the ground, especially during takeoff or landing."
+  },
+  {
+    "title": "Altitude Levels",
+    "content": "Pilots use pressure altitude and flight levels to maintain vertical separation in high-altitude airspace."
+  },
+  {
+    "title": "Controlled vs. Uncontrolled Airspace",
+    "content": "Controlled airspace has ATC services, while uncontrolled airspace requires pilots to self-announce and separate."
+  },
+  {
+    "title": "Mayday and Pan-Pan",
+    "content": "‘Mayday’ is for emergencies. ‘Pan-Pan’ is for urgent but non-life-threatening issues like system malfunctions."
+  }
+]
+

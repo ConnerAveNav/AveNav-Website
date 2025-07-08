@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery – Conner Aviation</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="update-banner">
+  <div class="slide-text">
+    Update underway
+    <span class="spacer"></span>
+    Update 2.0 (New filter system, Website style, Learn section etc)
+    <span class="spacer"></span>
+    "Learn Section" pending important update
+    <span class="spacer"></span>
+    More aircraft and learning cards added soon!
+  </div>
+  </div>
+  <header>
+    <h1>Conner Aviation</h1>
+
+    <nav class="nav-desktop">
+      <a href="index.html#gallery">Home</a>
+      <a href="index.html#learn">Learn</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <button class="hamburger" onclick="toggleMobileNav()">☰</button>
+
+    <nav class="nav-mobile" id="mobileNav">
+      <a href="index.html#gallery" onclick="toggleMobileNav()">Home</a>
+      <a href="index.html#learn" onclick="toggleMobileNav()">Learn</a>
+      <a href="index.html#about" onclick="toggleMobileNav()">About</a>
+      <a href="index.html#contact" onclick="toggleMobileNav()">Contact</a>
+    </nav>
+  </header>
+
+  <section class="gallery">
+    <h2>Full Aircraft Gallery</h2>
+
+    <div class="search-filter-container">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search by Reg, Livery, or Plane Type..."
+        oninput="filterCards()"
+      />
+
+      <button class="filter-toggle-btn" onclick="toggleFilters()">Filter ⏷</button>
+
+      <div class="filter-panel" id="filterPanel">
+        <h4>Filter by Type</h4>
+        <label><input type="checkbox" value="Turbocharge Engine" onchange="filterCards()"> Turbocharge Engine</label><br />
+        <label><input type="checkbox" value="Turboprop Engine" onchange="filterCards()"> Turboprop</label><br />
+        <label><input type="checkbox" value="Turbofan Engine" onchange="filterCards()"> Turbofan Engine</label><br />
+        <label><input type="checkbox" value="Turboshaft Engine" onchange="filterCards()"> Turboshaft Engine</label><br />
+        <label><input type="checkbox" value="Piston Engine" onchange="filterCards()"> Piston Engine</label><br />
+        <label><input type="checkbox" value="Piston Aero Engine" onchange="filterCards()"> Piston Aero Engine</label><br />
+        <label><input type="checkbox" value="Radial Engine" onchange="filterCards()"> Radial Engine</label>
+
+        <h4 style="margin-top:1rem;">Filter by Livery</h4>
+        <label><input type="checkbox" value="British Airways" onchange="filterCards()"> British Airways</label><br />
+        <label><input type="checkbox" value="South African Airways" onchange="filterCards()"> South African Airways</label><br />
+        <label><input type="checkbox" value="Generic" onchange="filterCards()"> Generic</label>
+      </div>
+    </div>
+
+    <div class="grid" id="galleryGrid">
+      <!-- Cards will be loaded here dynamically by script.js -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Conner Aviation. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
