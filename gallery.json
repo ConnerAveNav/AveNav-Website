@@ -48,10 +48,10 @@
     "img": "https://i.postimg.cc/XvFbXsrv/DSC-0470.jpg"
   },
   {
-    "reg": "ZS-MUE",
+    "title": "Piper Aircraft - Piper PA-28-161 Warrior II",
+    "reg": "ZS-IKE",
     "livery": "Safomar Aviation Operations Flight School",
     "type": "Piston Engine",
-    "title": "Piper Aircraft - Piper PA-28-161 Warrior II",
     "desc": "The Piper PA-28-161 Warrior II is primarily used for flight training, personal use, and air taxi services. Its stable flight characteristics, relatively low operating costs, and forgiving nature make it a popular choice for student pilots and private owners alike.",
     "img": "https://i.postimg.cc/J0c8bMVd/DSC-0182.jpg"
   },
@@ -72,10 +72,10 @@
     "img": "https://i.postimg.cc/WbgFHkjQ/DSC-0251.jpg"
   },
   {
-    "reg": "ZS-IKE",
+    "title": "Piper Aircraft - Piper PA-28-161 Warrior II",
+    "reg": "ZS-MUF",
     "livery": "Private",
     "type": "Piston Engine",
-    "title": "Piper Aircraft - Piper PA-28-161 Warrior II",
     "desc": "The Piper PA-28-161 Warrior II is primarily used for flight training, personal use, and air taxi services. Its stable flight characteristics, relatively low operating costs, and forgiving nature make it a popular choice for student pilots and private owners alike.",
     "img": "https://i.postimg.cc/Hnr3shLZ/DSC-0200.jpg"
   },
@@ -152,10 +152,10 @@
     "img": "https://i.postimg.cc/KcMcQhDz/DSC-1072.jpg"
   },
   {
+    "title": "The Boeing Company - 737-844",
     "reg": "ZS-SJU",
-    "livery": "FlySafair(Springboks livery)",
+    "livery": "FlySafair (Springboks Livery)",
     "type": "Turbofan Engine",
-    "title": "The Boeing Company - 737-800",
     "desc": "The Boeing 737-800 is generally used for short to medium-haul commercial passenger flights by airlines worldwide.",
     "img": "https://i.postimg.cc/QCr20wj9/DSC-1163.jpg"
   },
@@ -168,10 +168,10 @@
     "img": "https://i.postimg.cc/D0FNqGc1/DSC-0809.jpg"
   },
   {
+    "title": "The Boeing Company - 737-8SH",
     "reg": "9XR-WQ",
     "livery": "RwandAir",
     "type": "Turbofan Engine",
-    "title": "The Boeing Company - 737-800",
     "desc": "The Boeing 737-800 is generally used for short to medium-haul commercial passenger flights by airlines worldwide.",
     "img": "https://i.postimg.cc/NMxDvz1r/DSC-0755.jpg"
   },
@@ -214,6 +214,318 @@
     "title": "De Havilland Canada - Bombardier Dash 8-Q402",
     "desc": "The Dash 8 aircraft is primarily used for regional passenger and cargo transport. Its versatility aslo allows it to be used for firefighting, maritime surveillance, and other special mission roles, especially given its ability to operate from smaller airports and unpaved runways.",
     "img": "https://i.postimg.cc/Vvq8w1KW/DSC-0851.jpg"
+  },
+  {
+    "title": "Pilatus PC-12",
+    "reg": "5X-DBR",
+    "livery": "Private",
+    "type": "Turboprop",
+    "desc": "The Pilatus PC-12 is a versatile Swiss-built single-engine turboprop aircraft, and it's widely respected for its reliability, range, and performance.",
+    "img": "https://i.postimg.cc/Bbp5yt6S/DSC-0885.jpg"
+  },
+  {
+    "title": "Bell Textron - Bell 430",
+    "reg": "ZT-RNA",
+    "livery": "Netcare 082 911",
+    "type": "Turboshaft",
+    "desc": "The Bell 43 was an experimental prototype, not a helicopter with general use. It helped advance rotorcraft technology but never entered regular service.",
+    "img": "https://i.postimg.cc/ZK0yZwsF/DSC-0870.jpg"
+  },
+  {
+    "title": "Messerschmitt-Bölkow-Blohm - MBB BO 105",
+    "reg": "ZS-RBA",
+    "livery": "Private",
+    "type": "Turboshaft",
+    "desc": "The MBB Bo 105 (Messerschmitt-Bölkow-Blohm) is a light, twin-engine utility helicopter that became widely known for its agility, reliability, and versatility. It has been used in civilian, law enforcement, and military roles around the world.",
+    "img": "https://i.postimg.cc/65T9b3YY/DSC-0512.jpg"
+  },
+  {
+    "title": "Cessna 421C Golden Eagle",
+    "reg": "ZS-KSJ",
+    "livery": "Private",
+    "type": "Piston Engine",
+    "desc": "The Cessna 421C Golden Eagle is a pressurized, twin-engine piston aircraft designed for high-performance business and personal travel, though it's also used in a range of other utility roles.",
+    "img": "https://i.postimg.cc/nV3F17YX/DSC-0469.jpg"
+  },
+  {
+    "title": "Bell Textron - Bell 429",
+    "reg": "ZT-HFB",
+    "livery": "Private",
+    "type": "Turboshaft",
+    "desc": "The Bell 429 is a twin-engine light utility helicopter, known for its modern avionics, smooth ride, and versatility. It’s used globally in both civilian and public service sectors.",
+    "img": "https://i.postimg.cc/KcqG5xcx/DSC-0755.jpg"
+  },
+  {
+    "title": "N/A",
+    "reg": "N/A",
+    "livery": "Private",
+    "type": "Turboshaft",
+    "desc": "N/A",
+    "img": "https://i.postimg.cc/BZjKfhV5/DSC-0788.jpg"
+  },
+  {
+    "title": "Bell Textron - Bell 407",
+    "reg": "ZS-RST",
+    "livery": "Private",
+    "type": "Turboshaft",
+    "desc": "The Bell 407 is a single-engine, light utility helicopter widely known for its reliability, performance, and versatility. It’s one of Bell’s most successful civilian rotorcraft and is used around the world in a variety of missions.",
+    "img": "https://i.postimg.cc/7brwTYDk/DSC-0746.jpg"
+  },
+  {
+    "title": "Piper PA-18 Super Cub",
+    "reg": "ZS-IOU",
+    "livery": "Private",
+    "type": "Piston Engine",
+    "desc": "The Piper PA-18 Super Cub is a two-seat, single-engine taildragger that's famous for its simplicity, ruggedness, and Short Takeoff and Landing (STOL) capability. It’s one of the most iconic bush planes ever built.",
+    "img": "https://i.postimg.cc/8cdwGNp5/DSC-0418.jpg"
+  },
+  {
+    "title": "Bell Textron - Bell 206",
+    "reg": "ZS-RFD",
+    "livery": "Private",
+    "type": "Turboshaft",
+    "desc": "The Bell 206 is one of the most widely used light utility helicopters ever built. It’s a single-engine (JetRanger) or twin-engine (TwinRanger) helicopter, known for its reliability, affordability, and versatility across both civilian and military sectors.",
+    "img": "https://i.postimg.cc/25F5ntSW/DSC-0257.jpg"
+  },
+  {
+    "title": "Bell Textron - Bell 206 Long Ranger",
+    "reg": "ZS-HIB",
+    "livery": "Private",
+    "type": "Turboshaft",
+    "desc": "The Bell 206 LongRanger (also known as the Bell 206L) is a stretched, longer-fuselage variant of the Bell 206 JetRanger, designed to carry more passengers and cargo while retaining the reliability and performance of the original.",
+    "img": "https://i.postimg.cc/L8P585dN/DSC-0260.jpg"
+  },
+  {
+    "title": "Bell Textron - Bell 222",
+    "reg": "ZT-RFA",
+    "livery": "Henley Air",
+    "type": "Turboshaft",
+    "desc": "The Bell 222 is a twin-engine light helicopter known for its sleek, streamlined design and smooth performance. It was one of the first light twin-engine helicopters aimed squarely at the corporate/VIP market, but it also found roles in EMS and utility missions.",
+    "img": "https://i.postimg.cc/0jr2R2dG/DSC-0233.jpg"
+  },
+  {
+    "title": "Diamond DA-42 Twin Star",
+    "reg": "ZS-DIA",
+    "livery": "Private",
+    "type": "Piston Engine",
+    "desc": "The Diamond DA-42 Twin Star is a light, twin-engine piston aircraft primarily designed for training, surveillance, and general utility roles. It’s a modern, fuel-efficient, composite-built plane with advanced avionics.",
+    "img": "https://i.postimg.cc/2Sx6ZJ6Z/DSC-0167.jpg"
+  },
+  {
+    "title": "N/A",
+    "reg": "ZU-ETW",
+    "livery": "Private",
+    "type": "Piston Engine",
+    "desc": "Known this aircraft?",
+    "img": "https://i.postimg.cc/ZRv4VDTj/DSC-0158.jpg"
+  },
+  {
+    "title": "Airbus H125",
+    "reg": "ZT-RCA",
+    "livery": "Eskom",
+    "type": "Turboshaft",
+    "desc": "The Airbus H125 (formerly known as the Eurocopter AS350 Écureuil/Squirrel) is a single-engine, light utility helicopter renowned for its performance, reliability, and versatility.",
+    "img": "https://i.postimg.cc/RFtxc6RD/DSC-0114.jpg"
+  },
+  {
+    "title": "Cessna 172",
+    "reg": "ZS-MDF",
+    "livery": "Private",
+    "type": "Piston Engine",
+    "desc": "The Cessna 172 Skyhawk is one of the most popular and widely produced single-engine, four-seat light aircraft in aviation history. It’s known for being simple, reliable, and easy to fly.",
+    "img": "https://i.postimg.cc/wMW2MFN8/DSC-0095.jpg"
+  },
+  {
+    "title": "N/A",
+    "reg": "ZU-BJX",
+    "livery": "Private",
+    "type": "Piston Engine",
+    "desc": "Know this aircraft?",
+    "img": "https://i.postimg.cc/wM9477bJ/DSC-0100.jpg"
+  },
+  {
+    "title": "Bell Textron - Bell 206L-1 LongRanger",
+    "reg": "ZS-HDX",
+    "livery": "Private",
+    "type": "Turboshaft",
+    "desc": "The Bell 206L-1 LongRanger is a stretched, single-engine light utility helicopter—an extended version of the Bell 206 JetRanger designed to carry more passengers and cargo with the same reliable performance.",
+    "img": "https://i.postimg.cc/26GF9T2b/DSC-0060.jpg"
+  },
+  {
+    "title": "Piper Saratoga II HP",
+    "reg": "ZS-TEK",
+    "livery": "Private",
+    "type": "Piston Engine",
+    "desc": "The Piper Saratoga II HP is a single-engine, high-performance, six-seat piston aircraft primarily designed for personal, business, and utility flying. It’s known for its comfort, speed, and good range, making it popular among private owners and small businesses.",
+    "img": "https://i.postimg.cc/4dsQ1jbR/DSC-0070.jpg"
+  },
+  {
+    "title": "Robinson Helicopter Company - R44 Raven II",
+    "reg": "ZS-RUJ",
+    "livery": "Henley Air",
+    "type": "Piston Engine",
+    "desc": "The Robinson R44 Raven II is a four-seat, single-engine light helicopter that’s one of the most popular piston helicopters worldwide due to its affordability, simplicity, and reliability.",
+    "img": "https://i.postimg.cc/8PjBwRWc/DSC-0013.jpg"
+  },
+  {
+    "title": "Socata TBM-850",
+    "reg": "N850SJ",
+    "livery": "Private",
+    "type": "Turboprop",
+    "desc": "The Socata TBM-850 is a single-engine turboprop high-performance business aircraft known for blending speed, efficiency, and comfort. It’s a popular choice for owner-pilots and small businesses needing fast, cost-effective travel.",
+    "img": "https://i.postimg.cc/zfjgqvW4/DSC-0001.jpg"
+  },
+  {
+    "title": "Cessna 172",
+    "reg": "ZS-TFU",
+    "livery": "Johannesburg School of Flying",
+    "type": "Piston Engine",
+    "desc": "The Cessna 172 Skyhawk is one of the most popular and widely produced single-engine, four-seat light aircraft in aviation history. It’s known for being simple, reliable, and easy to fly.",
+    "img": "https://i.postimg.cc/J76JvscF/DSC-0048.jpg"
+  },
+  {
+    "title": "Airbus A220-300 (BCS3)",
+    "reg": "D2-TAF",
+    "livery": "TAAG Angola Airlines",
+    "type": "Turbofan",
+    "desc": "The Airbus A220-300 is a narrow-body, twin-engine jet airliner designed for short- to medium-haul commercial passenger service. It’s known for its fuel efficiency, modern design, and passenger comfort.",
+    "img": "https://i.postimg.cc/httn4NYs/DSC-0065.jpg"
+  },
+  {
+    "title": "Embraer - E195AR",
+    "reg": "ZS-YDE",
+    "livery": "Airlink (Skybucks Livery)",
+    "type": "Turbofan",
+    "desc": "The Embraer E195AR (where AR stands for “Advanced Range”) is a regional jet airliner designed for short- to medium-haul commercial passenger service with extended range capabilities.",
+    "img": "https://i.postimg.cc/zX9wq13Z/DSC-0283.jpg"
+  },
+  {
+    "title": "Boeing 737-8BG",
+    "reg": "ZS-SJO",
+    "livery": "FlySafair (Springboks Livery)",
+    "type": "Turbofan",
+    "desc": "The Boeing 737-8BG is a specific variant of the Boeing 737 MAX 8 series, manufactured by Boeing and delivered to certain airlines (the “BG” suffix is a customer code, typically for Southwest Airlines). It’s a narrow-body, twin-engine jet airliner widely used for short- to medium-haul commercial passenger flights.",
+    "img": "https://i.postimg.cc/sgqLF8Cv/DSC-0361.jpg"
+  },
+  {
+    "title": "Boeing 737-8HX",
+    "reg": "5Y-CYB",
+    "livery": "Kenya Airways",
+    "type": "Turbofan",
+    "desc": "The Boeing 737-8HX is a specific customer-coded variant of the Boeing 737 MAX 8, with “HX” being the customer code (commonly assigned to Hainan Airlines). It’s a narrow-body, twin-engine jet airliner widely used for commercial passenger flights.",
+    "img": "https://i.postimg.cc/VNzKccHs/DSC-0350.jpg"
+  },
+  {
+    "title": "Boeing 777-FFX",
+    "reg": "A6-DDC",
+    "livery": "Etihad Cargo",
+    "type": "Turbofan",
+    "desc": "The Boeing 777-F (also known as the 777 Freighter) is the cargo (freight) version of the Boeing 777 family, designed specifically for long-haul, heavy cargo transport.",
+    "img": "https://i.postimg.cc/T1nk6YGw/DSC-0390.jpg"
+  },
+  {
+    "title": "Airbus A350-941",
+    "reg": "TC-LGY",
+    "livery": "Turkish Airlines",
+    "type": "Turbofan",
+    "desc": "The Airbus A350-941 is a specific variant of the A350 XWB (Extra Wide Body) family, designed for long-haul, widebody commercial passenger service.",
+    "img": "https://i.postimg.cc/PqN2qMh0/DSC-0419.jpg"
+  },
+  {
+    "title": "Airbus A330-243F",
+    "reg": "TC-JDP",
+    "livery": "Turkish Cargo",
+    "type": "Turbofan",
+    "desc": "The Airbus A330-243F is a freighter (cargo) variant of the Airbus A330 family, designed specifically for medium- to long-haul air cargo transport.",
+    "img": "https://i.postimg.cc/RVF3ypRr/DSC-0110.jpg"
+  },
+  {
+    "title": "Airbus A320-232",
+    "reg": "ZS-SZF",
+    "livery": "South African Airways (Star Alliance Livery)",
+    "type": "Turbofan",
+    "desc": "The Airbus A320-232 is a narrow-body commercial jet primarily used for short- to medium-haul passenger flights.",
+    "img": "https://i.postimg.cc/Wzm7yW6q/DSC-0474.jpg"
+  },
+  {
+    "title": "Embraer - ERJ-145LR",
+    "reg": "V5-ABW",
+    "livery": "Air Botswana",
+    "type": "Turbofan",
+    "desc": "The Embraer ERJ-145LR is generally used for regional passenger transport.",
+    "img": "https://i.postimg.cc/6phCN4vg/DSC-0173.jpg"
+  },
+  {
+    "title": "Airbus A380-861",
+    "reg": "A6-EES",
+    "livery": "Emirates (Destination Dubai Livery)",
+    "type": "Turbofan",
+    "desc": "The Airbus A380-861 is generally used for long-haul, high-capacity international passenger transport.",
+    "img": "https://i.postimg.cc/6pHT0rRW/DSC-0535.jpg"
+  },
+  {
+    "title": "Airbus A380-842",
+    "reg": "VH-OQK",
+    "livery": "Qantas",
+    "type": "Turbofan",
+    "desc": "The Airbus A380-842 is generally used for long-haul, high-capacity international passenger transport.",
+    "img": "https://i.postimg.cc/Y2frRNK5/DSC-0512.jpg"
+  },
+  {
+    "title": "Airbus A320-231",
+    "reg": "ZS-GAO",
+    "livery": "Lift",
+    "type": "Turbofan",
+    "desc": "The Airbus A320-231 is a narrow-body commercial jet primarily used for short- to medium-haul passenger flights.",
+    "img": "https://i.postimg.cc/FKj8vZZm/DSC-0097.jpg"
+  },
+  {
+    "title": "Embraer - ERJ-135LR",
+    "reg": "ZS-SNZ",
+    "livery": "Airlink",
+    "type": "Turbofan",
+    "desc": "The Embraer ERJ-135LR is a versatile regional jet, mainly used for short-haul commercial flights, corporate travel, and government transport, offering reliable performance and access to smaller airports.",
+    "img": "https://i.postimg.cc/xTcZ8YR6/DSC-0128.jpg"
+  },
+  {
+    "title": "Boeing 737-8EH",
+    "reg": "ZS-FGD",
+    "livery": "FlySafair",
+    "type": "Turbofan",
+    "desc": "The 737-8EH is a workhorse narrow-body jet, ideal for low-cost carriers and regional airlines operating short to medium distances with high passenger volume. It’s essentially a 737-800 tailored to a specific airline’s needs.",
+    "img": "https://i.postimg.cc/HnPPzPp0/DSC-0089.jpg"
+  },
+  {
+    "title": "De Havilland Canada Dash 8-100",
+    "reg": "ZS-DHC",
+    "livery": "CemAir",
+    "type": "Turboprop",
+    "desc": "The Dash 8-100 is a rugged, reliable turboprop built to handle challenging conditions, making it ideal for rural routes, island-hopping, and cold-weather operations — especially in places like Canada, Alaska, Africa, and the Pacific Islands.",
+    "img": "https://i.postimg.cc/jqG1DmFK/DSC-0046.jpg"
+  },
+  {
+    "title": "Embraer - EMB-120ER Brasilia",
+    "reg": "ZS-TAA",
+    "livery": "TAB Charters",
+    "type": "Turboprop",
+    "desc": "The EMB-120ER Brasilia is a tough, fast, and efficient regional turboprop that was a popular workhorse in the 1980s–2000s. While it’s less common today, it still flies in niche markets, especially in developing regions or areas with short runways and limited infrastructure.",
+    "img": "https://i.postimg.cc/zXFkqQmx/DSC-0038.jpg"
+  },
+  {
+    "title": "Airbus A320-232",
+    "reg": "ZS-SZG",
+    "livery": "South African Airways",
+    "type": "Turbofan",
+    "desc": "The A320-232 is a workhorse for airlines, mainly used for domestic and regional commercial passenger service due to its efficiency, size, and reliability.",
+    "img": "https://i.postimg.cc/kD3W7xw3/DSC-0019.jpg"
+  },
+  {
+    "title": "Embraer - E170LR",
+    "reg": "ZS-YBC",
+    "livery": "Airlink",
+    "type": "Turbofan",
+    "desc": "The E170LR is a modern, fuel-efficient regional jet ideal for airlines serving medium-density routes where a larger jet isn't practical. It’s valued for its jet performance, passenger comfort, and ability to operate from smaller airports with short runways or limited infrastructure.",
+    "img": "https://i.postimg.cc/4NqShM2s/DSC-0080.jpg"
   }
 ]
 
